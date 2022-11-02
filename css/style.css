@@ -1,0 +1,33 @@
+ .inline-block {
+    display: inline-block;
+    vertical-align: top;
+    text-align: end;
+    position: relative;
+    transform: translate(10%, -230%);
+}
+/*.navigation.logo*/ img {
+    width: 150px;
+    text-align: left;
+    padding: 5%;
+    padding-left: 0%;
+    transform: translateY(-30%);
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+ul  {
+    width: 50%;
+    margin-left: 650; 
+    text-align: end;
+    padding-right: 5%;
+    padding-top: 7%;
+}
+.content {
+    text-align: right;
+    padding-right: 5%;
+    transform: translateY(-150%);
+}
+
