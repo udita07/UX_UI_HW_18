@@ -25,9 +25,61 @@ ul  {
     padding-right: 5%;
     padding-top: 7%;
 }
+
+
 .content {
     text-align: right;
     padding-right: 5%;
     transform: translateY(-150%);
 }
 
+h3 {
+    text-align: center;
+    padding-bottom: 5%; 
+}
+/* challenge 18 */ 
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.skillCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+
+
+#myWork-Grid {
+    display: grid;
+    grid-template-rows: max-content 3fr 3fr 3fr max-content;
+    padding: 7%;
+}
+
+.project-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+ h4 {
+    text-align: center;
+    padding: 5%;
+ }
+
+ .project-card p {
+    text-align: right;
+    padding-right: 5%;
+ }
+
+#myWork-Grid button {
+    width: 100px;
+    height: 30px;
+} 
